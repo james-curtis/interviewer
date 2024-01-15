@@ -10,8 +10,34 @@
 - 项目 10 min
   - 具体情况而定
 - 八股 10 min
+  - html 基础
   - js 基础
     - promise
+      ```js
+      setTimeout(function onTimeout() {
+        console.log('timeout');
+      
+        requestIdleCallback(function onIdle2() {
+          console.log('idle2');
+        });
+      }, 0);
+      
+      Promise.resolve().then(function onFulfill1() {
+        console.log('promise1');
+      });
+      
+      requestAnimationFrame(function onAf() {
+        console.log('raf');
+      
+        Promise.resolve().then(function onFulfill2() {
+          console.log('promise2');
+        });
+      });
+      
+      requestIdleCallback(function onIdle1() {
+        console.log('idle1');
+      });
+      ```
   - ts
   - 框架
   - 网络
