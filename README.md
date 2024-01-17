@@ -38,7 +38,10 @@
         console.log('idle1');
       });
       ```
+  - css 基础
+    - 居中布局
   - ts
+    - infer
   - 前端框架
   - 工程化
   - 网络
