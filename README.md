@@ -11,31 +11,31 @@
 - 八股（基础分，可以省略） 10 min
   - html 基础
   - js 基础
-    - promise
+    - promise https://juejin.cn/post/7151636219036696613#heading-41
       ```js
-      setTimeout(function onTimeout() {
-        console.log('timeout');
+      requestAnimationFrame(function onAf() {
+          console.log('raf');
       
-        requestIdleCallback(function onIdle2() {
-          console.log('idle2');
-        });
-      }, 0);
-      
-      Promise.resolve().then(function onFulfill1() {
-        console.log('promise1');
+          Promise.resolve().then(function onFulfill2() {
+              console.log('promise2');
+          });
       });
       
-      requestAnimationFrame(function onAf() {
-        console.log('raf');
-      
-        Promise.resolve().then(function onFulfill2() {
-          console.log('promise2');
-        });
+      Promise.resolve().then(function onFulfill1() {
+          console.log('promise1');
       });
       
       requestIdleCallback(function onIdle1() {
-        console.log('idle1');
+          console.log('idle1');
       });
+      
+      setTimeout(function onTimeout() {
+          console.log('timeout');
+      
+          requestIdleCallback(function onIdle2() {
+              console.log('idle2');
+          });
+      }, 0);
       ```
   - css 基础
     - 居中布局（基本）
