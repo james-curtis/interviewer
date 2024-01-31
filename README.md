@@ -11,7 +11,12 @@
 - 八股（基础分，可以省略） 10 min
   - html 基础
   - js 基础
-    - promise https://juejin.cn/post/7151636219036696613#heading-41
+    - promise
+      - https://juejin.cn/post/7151636219036696613
+      - https://www.zhihu.com/question/268007969
+      - https://juejin.cn/post/6844904079353708557
+      - https://juejin.cn/post/6844903858129338375
+      - 
       ```js
       requestAnimationFrame(function onAf() {
           console.log('raf');
