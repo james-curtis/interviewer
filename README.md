@@ -42,6 +42,27 @@
           });
       }, 0);
       ```
+      ```js
+      console.log("开始");
+      setTimeout(() => {
+          console.log("输出一个信息");
+      }, 0);
+      console.log("执行");
+      new Promise((resolve, reject) => {
+          console.log("执行for循环");
+          for (var i = 0; i < 100; i++) {
+              i == 99 && resolve();
+          }
+          reject();
+      })
+          .then(() => {
+              console.log("执行then函数");
+          })
+          .catch(() => {
+              console.log("catch error");
+          });
+      console.log("执行结束")
+      ```
   - css 基础
     - 居中布局（基本）
   - ts
