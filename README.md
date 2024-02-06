@@ -68,6 +68,7 @@
   - ts
     - infer（加分）
     - 工具类型（如果简历写了，那就是基本，没写就是加分）
+    - [什么时候推荐用 type 什么时候用 interface ？](https://pro.ant.design/zh-CN/docs/type-script#%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E6%8E%A8%E8%8D%90%E7%94%A8-type-%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E7%94%A8-interface-)
   - 前端框架
   - 工程化
   - 网络
