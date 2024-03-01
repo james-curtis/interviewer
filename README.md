@@ -63,6 +63,8 @@
           });
       console.log("执行结束")
       ```
+      - final
+        - [promise.then 中 return Promise.resolve 后，发生了什么？ - 徐鹏跃的回答 - 知乎](https://www.zhihu.com/question/453677175/answer/1841325386)
   - css 基础
     - 居中布局（基本）
   - ts
