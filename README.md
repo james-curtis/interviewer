@@ -65,6 +65,21 @@
       ```
       - final
         - [promise.then 中 return Promise.resolve 后，发生了什么？ - 徐鹏跃的回答 - 知乎](https://www.zhihu.com/question/453677175/answer/1841325386)
+    - this 指向问题
+      ```
+      var length = 1
+      function fn() {
+          console.log(this.length);
+      }
+      var obj = {
+          length: 4,
+          test: function(t) {
+              t()
+              arguments[0]()
+          }
+      }
+      obj.test(fn, 6)
+      ```
   - css 基础
     - 居中布局（基本）
   - ts
