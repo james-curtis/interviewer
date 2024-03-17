@@ -93,6 +93,8 @@
     - 深拷贝
       ```js
       a=new Number(1)
+      console.log(Object(a)===a)
+      console.log(Object.constructor(a)===a)
       console.log(new Object(a)===a)
       console.log(new Object.constructor(a)===a)
       ```
