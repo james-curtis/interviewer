@@ -96,6 +96,7 @@
       console.log(Object(a)===a)
       console.log(Object.constructor(a)===a)
       console.log(new Object(a)===a)
+      // 会受到 CSP 限制
       console.log(new Object.constructor(a)===a)
       ```
   - css 基础
