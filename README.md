@@ -90,7 +90,9 @@
       console.log(new Object(a)===a)
       console.log(new Object.constructor(a)===a)
 
+      Object.prototype.constructor === Object.constructor
       Function.prototype.constructor === Function.constructor
+      Array.prototype.constructor === Array.constructor
       ```
   - css 基础
     - 居中布局（基本）
