@@ -93,6 +93,7 @@
       Object.prototype.constructor === Object.constructor
       Function.prototype.constructor === Function.constructor
       Array.prototype.constructor === Array.constructor
+      Array.prototype.constructor.constructor === Array.constructor
       ```
   - css 基础
     - 居中布局（基本）
