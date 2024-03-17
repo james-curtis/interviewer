@@ -80,6 +80,18 @@
       }
       obj.test(fn, 6)
       ```
+    - 原型链
+      ```js
+      [].constructor===[].__proto__.constructor
+      
+      [].__proto__.constructor.constructor === Object.constructor
+      
+      a=new Number(1)
+      console.log(new Object(a)===a)
+      console.log(new Object.constructor(a)===a)
+
+      Function.prototype.constructor === Function.constructor
+      ```
   - css 基础
     - 居中布局（基本）
   - ts
